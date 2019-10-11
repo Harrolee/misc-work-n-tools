@@ -122,7 +122,7 @@ class AWS_Connector():
 
     def write_json(self, dictionary, s3_filename, bucket_name):
         '''Converts a dictionary to a JSON and uploads the result to an s3 bucket'''
-        self.df = df
+        self.dictionary = dictionary
         self.s3_filename = s3_filename
         self.bucket_name = bucket_name
 
